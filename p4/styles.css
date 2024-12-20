@@ -1,0 +1,77 @@
+/* Reset some basic elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the body */
+body {
+    font-family: 'Times New Roman', sans-serif;
+    background-color: rgba(15, 49, 237, 0.38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the Tic Tac Toe game */
+#tictactoe-container {
+    background-color: skyblue;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(15, 49, 237, 0.38);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the Tic Tac Toe board */
+#tictactoe {
+    margin-bottom: 20px;
+}
+
+/* Style for the table cells */
+td {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #4CAF50;
+    background-color: #d0d0d0;
+    font-size: 2em;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+/* Style for table cells on hover */
+td:hover {
+    background-color: #d0d0d0;
+    cursor: pointer;
+}
+
+/* Style for status messages */
+#status {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Style for the restart button */
+#restart-btn {
+    background-color: rgba(175, 76, 76, 0.9);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Style for the button on hover */
+#restart-btn:hover {
+    background-color: #d0d0d0;
+}
+
+/* Notification style */
+#notification {
+    font-size: 1em;
+    color: #f00;
+    margin-top: 10px;
+}
